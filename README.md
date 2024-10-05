@@ -52,6 +52,6 @@
 > 项目预览（上：基础内容，下：高级内容）
 <center>
 
-![扫雷_基础](https://i-blog.csdnimg.cn/blog_migrate/0ef591420251b009b3ce5151928bb742.png "扫雷_基础")
-![扫雷_高级](https://i-blog.csdnimg.cn/blog_migrate/0ef591420251b009b3ce5151928bb742.png "扫雷_高级")
+![扫雷_基础](https://github.com/llfseik/LLFs-OSRMGP/blob/main/legend/minesweeper_1.jpg "扫雷_基础")
+![扫雷_高级](https://github.com/llfseik/LLFs-OSRMGP/blob/main/legend/minesweeper_2.jpg "扫雷_高级")
 </center>
