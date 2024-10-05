@@ -1,0 +1,9 @@
+
+/.vscode
+cache*
+save*
+*.rpe
+*.rpyc
+*.rpymc
+*.rpyb
+*.txt
