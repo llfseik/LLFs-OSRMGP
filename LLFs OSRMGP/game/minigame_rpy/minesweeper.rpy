@@ -171,7 +171,7 @@ screen minesweeper_screen(cols=10,rows=10,mines=10):
                             ## 判断格子是否被标记
                             if i in marked_box_list:
                                 idle Fixed("#7593d4",Text(("🚩"),style="box_style",size=int(box_xysize*0.6)),xysize=(int(box_xysize),int(box_xysize)))
-                            elif i not in box_around_mines.keys():
+                            else:
                                 idle Fixed("#7593d4",xysize=(int(box_xysize),int(box_xysize)))
 
                             ## 判断按下的按键，并将已经打开的格子排除在外
