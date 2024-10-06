@@ -1,3 +1,6 @@
+## 该项目来源于LLFs-OSRMGP（https://github.com/llfseik/LLFs-OSRMGP），遵循MIT协议。
+## 严禁进行售卖！若需嵌入付费项目请与我联系！
+
 label minesweeper_label:
     $ quick_menu = False
     ## 四个参数分别为：行数、列数、雷数
