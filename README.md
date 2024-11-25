@@ -83,7 +83,7 @@
   - 屏幕左侧显示快捷菜单，可以点击后快速重新开始游戏、重置缩放，显示当前轮到谁。
 
 > 该项目教程链接
-  - 暂无
+  - [renpy中文论坛-五子棋迷你游戏代码讲解/教程【LLFs-OSRMGP内容扩展-2】]([https://www.renpy.cn/forum.php?mod=viewthread&tid=1593](https://www.renpy.cn/forum.php?mod=viewthread&tid=1612&page=1&extra=#pid6006))
 
 > 项目预览
 <center>
