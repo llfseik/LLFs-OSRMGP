@@ -87,5 +87,6 @@
 
 > 项目预览
 <center>
-暂无
+
+![五子棋_基础](https://github.com/llfseik/LLFs-OSRMGP/blob/main/legend/gobang_1.jpg "五子棋_基础")
 </center>
