@@ -36,7 +36,7 @@
 
 ## 项目介绍
 
-### [扫雷游戏](https://github.com/llfseik/LLFs-OSRMGP/blob/main/LLFs%20OSRMGP/game/minigame_rpy/minesweeper.rpy)
+### [扫雷游戏](https://github.com/llfseik/LLFs-OSRMGP/blob/main/LLFs%20OSRMGP/minesweeper.rpy)
 > 该项目优点
   - **界面简洁，功能方便，操作简单**，无需准备素材，可直接放入到其他项目中使用。
   - **可扩展性高，可以根据自己的需求增减功能**，如计分功能、难度调整功能等。
