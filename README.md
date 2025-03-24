@@ -64,7 +64,7 @@
 ![扫雷_高级](https://github.com/llfseik/LLFs-OSRMGP/blob/main/legend/minesweeper_2.jpg "扫雷_高级")
 </center>
 
-### [五子棋游戏](https://github.com/llfseik/LLFs-OSRMGP/blob/main/LLFs%20OSRMGP/game/minigame_rpy/gobang.rpy)
+### [五子棋游戏](https://github.com/llfseik/LLFs-OSRMGP/blob/main/LLFs%20OSRMGP/gobang.rpy)
 > 注意：本项目为双人游戏，且暂未开发联机功能，仅能本地游玩
 
 > 该项目优点
