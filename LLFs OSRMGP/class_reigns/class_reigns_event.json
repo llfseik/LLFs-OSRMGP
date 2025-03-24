@@ -1,0 +1,1218 @@
+{
+    "_init_value": {
+        "Health_Value": 50,
+        "Force_Value": 50,
+        "Wisdom_Value": 50,
+        "Money_Value": 50,
+        "Network_Value": 50,
+        "Round_Value": 0,
+        "Round_Max_Value": 24,
+        "Loop_Value": 0,
+        "Loop_Max_Value": 7
+    },
+    "event_any_00_A": {
+        "event_text": "新的一天到来了！",
+        "event_image": "床",
+        "event_note": "",
+        "yes": {},
+        "yes_text": "",
+        "no": {},
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "pass"
+            ]
+        },
+        "other_text": "",
+        "round": [
+            0
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_01_A": {
+        "event_text": "新的一天，从起床开始？",
+        "event_image": "床",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 2,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -2,
+            "special_event": [
+                "restart_round",
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            1
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_01_B": {
+        "event_text": "嗯……今天还有很多事情要做，确定不起床吗？",
+        "event_image": "床",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 2
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -2,
+            "special_event": [
+                "RRTA"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            1
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {
+            "event_any_01_A": [
+                "no"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_02_A": {
+        "event_text": "非常好！让我们下床去做点其他事情吧！",
+        "event_image": "床",
+        "event_note": "",
+        "yes": {},
+        "yes_text": "",
+        "no": {},
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "pass"
+            ]
+        },
+        "other_text": "下床",
+        "round": [
+            2
+        ],
+        "loop": [],
+        "probability": 100,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_03_A#1": {
+        "event_text": "今天的早饭是……烈烈的秘制炒饭！",
+        "event_image": "米饭",
+        "event_note": "yes会增加5点健康",
+        "yes": {
+            "Health_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            3
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_03_A#2": {
+        "event_text": "今天的早饭是……烈烈的秘制炒饭！",
+        "event_image": "米饭",
+        "event_note": "会减少6点健康值",
+        "yes": {
+            "Health_Value": -6
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            3
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_03_B#1": {
+        "event_text": "今天的早饭是……龙叔昨晚的剩饭！",
+        "event_image": "米饭",
+        "event_note": "选择yes会增加8点健康值",
+        "yes": {
+            "Health_Value": 6
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            3
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_03_B#2": {
+        "event_text": "今天的早饭是……龙叔昨晚的剩饭！",
+        "event_image": "米饭",
+        "event_note": "选择yes会减少6点健康值",
+        "yes": {
+            "Health_Value": -6
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            3
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_03_C": {
+        "event_text": "今天的早饭是……菖蒲亲手制作的丰盛早饭！",
+        "event_image": "米饭",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 10
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            3
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_04_A": {
+        "event_text": "作为renpy制作人的你对新的一天充满了决心！",
+        "event_image": "肌肉",
+        "event_note": "",
+        "yes": {
+            "Wisdom_Value": 10
+        },
+        "yes_text": "我一定要把游戏做出来！",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "做六十分足够了~",
+        "other": {
+            "special_event": [
+                "restart_round",
+                "game_over"
+            ]
+        },
+        "other_text": "还是放弃吧……",
+        "round": [
+            4
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_04_se": {
+        "event_text": "好像吃坏肚子了……",
+        "event_image": "米饭",
+        "event_note": "",
+        "yes": {},
+        "yes_text": "",
+        "no": {},
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "pass",
+                "restart_round",
+                "loop_ignore"
+            ]
+        },
+        "other_text": "",
+        "round": [
+            4
+        ],
+        "loop": [],
+        "probability": 100,
+        "condition": {
+            "event_any_03_A#2": [
+                "yes"
+            ],
+            "event_any_03_B#2": [
+                "yes"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_05_A": {
+        "event_text": "今天打算出门玩吗？",
+        "event_image": " 门",
+        "event_note": "选择yes会额外度过3回合，增加7点健康减少3点金钱",
+        "yes": {
+            "Health_Value": 7,
+            "Money_Value": -3,
+            "Round_Value": 2
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            5
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_05_B": {
+        "event_text": "出门打工吗？",
+        "event_image": " 门",
+        "event_note": "选择yes额外度过3回合，增加5点金钱减少5点健康",
+        "yes": {
+            "Health_Value": -5,
+            "Money_Value": 5,
+            "Round_Value": 3
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            5
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_05_C": {
+        "event_text": "出门锻炼吗？",
+        "event_image": " 门",
+        "event_note": "选择yes会额外度过3回合，增加10点健康",
+        "yes": {
+            "Health_Value": 10,
+            "Round_Value": 3
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            5
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_A#1": {
+        "event_text": "打开电脑， 准备面对自己的史山代码",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -5,
+            "Wisdom_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": -5,
+            "Health_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 15,
+        "condition": {
+            "event_any_05_A": [
+                "no"
+            ],
+            "event_any_05_B": [
+                "no"
+            ],
+            "event_any_05_C": [
+                "no"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_A#2": {
+        "event_text": "回到家，打开电脑， 准备面对自己的史山代码",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -5,
+            "Wisdom_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": -5,
+            "Health_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 100,
+        "condition": {
+            "event_any_05_B": [
+                "yes"
+            ],
+            "event_any_05_A": [
+                "yes"
+            ],
+            "event_any_05_C": [
+                "yes"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_B": {
+        "event_text": "打会游戏",
+        "event_image": " 游戏",
+        "event_note": "",
+        "yes": {
+            "Wisdom_Value": 3,
+            "Health_Value": -5,
+            "Network_Value": 2
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": 5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_D": {
+        "event_text": "听会音乐",
+        "event_image": "音乐",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "special_event": [
+                "pass"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_E": {
+        "event_text": "和群友们聊天",
+        "event_image": " 聊天",
+        "event_note": "",
+        "yes": {
+            "Network_Value": 6
+        },
+        "yes_text": "",
+        "no": {
+            "special_event": [
+                "pass"
+            ],
+            "Network_Value": -3
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_F": {
+        "event_text": "在游戏平台上买新游戏",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Money_Value": -8,
+            "Health_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_G": {
+        "event_text": "吃点零食",
+        "event_image": " 零食",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -2
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_06_H": {
+        "event_text": "写会代码",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Wisdom_Value": 5,
+            "Health_Value": -5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": 2
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 6,
+            "max": 11
+        },
+        "loop": [],
+        "probability": 15,
+        "condition": {
+            "event_any_06_A#1": [
+                "yes"
+            ],
+            "event_any_06_A#2": [
+                "yes"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_07_A": {
+        "event_text": "今天的午饭是……肯德基？",
+        "event_image": " 米饭",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 15,
+            "Money_Value": -10
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -8
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            12
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_07_B#1": {
+        "event_text": "今天的午饭是……拼好饭？",
+        "event_image": " 米饭",
+        "event_note": "增加5健康",
+        "yes": {
+            "Health_Value": 5,
+            "Money_Value": -5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -8
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            12
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_07_B#2": {
+        "event_text": "今天的午饭是……拼好饭？",
+        "event_image": " 米饭",
+        "event_note": "减少10健康",
+        "yes": {
+            "Health_Value": -10,
+            "Money_Value": -5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -8
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            12
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_07_C": {
+        "event_text": "今天的午饭是……阳光青提？",
+        "event_image": " 米饭",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -2
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -8
+        },
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "loop_ignore",
+                "restart_round"
+            ]
+        },
+        "other_text": "还是吃点别的吧……",
+        "round": [
+            12
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_08_A": {
+        "event_text": "今天打算出门玩吗？",
+        "event_image": " 门",
+        "event_note": "选择yes会额外度过3回合，增加7点健康减少3点金钱",
+        "yes": {
+            "Health_Value": 7,
+            "Money_Value": -3,
+            "Round_Value": 2
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            13
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_08_B": {
+        "event_text": "出门打工吗？",
+        "event_image": " 门",
+        "event_note": "选择yes额外度过3回合，增加5点金钱减少5点健康",
+        "yes": {
+            "Health_Value": -5,
+            "Money_Value": 5,
+            "Round_Value": 3
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            13
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_08_C": {
+        "event_text": "出门锻炼吗？",
+        "event_image": " 门",
+        "event_note": "选择yes会额外度过3回合，增加10点健康",
+        "yes": {
+            "Health_Value": 10,
+            "Round_Value": 3
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": 6
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            13
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_08_se": {
+        "event_text": "好像吃坏肚子了……",
+        "event_image": "米饭",
+        "event_note": "",
+        "yes": {},
+        "yes_text": "",
+        "no": {},
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "pass",
+                "restart_round",
+                "loop_ignore"
+            ]
+        },
+        "other_text": "",
+        "round": [
+            13
+        ],
+        "loop": [],
+        "probability": 100,
+        "condition": {
+            "event_any_07_B#2": [
+                "yes"
+            ],
+            "event_any_07_C": [
+                "yes"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_A#1": {
+        "event_text": "打开电脑， 准备面对自己的史山代码",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -5,
+            "Wisdom_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": -5,
+            "Health_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 15,
+        "condition": {
+            "event_any_08_A": [
+                "no"
+            ],
+            "event_any_08_B": [
+                "no"
+            ],
+            "event_any_08_C": [
+                "no"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_A#2": {
+        "event_text": "回到家，打开电脑， 准备面对自己的史山代码",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -5,
+            "Wisdom_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "Wisdom_Value": -5,
+            "Health_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 100,
+        "condition": {
+            "event_any_05_B": [
+                "yes"
+            ],
+            "event_any_05_A": [
+                "yes"
+            ],
+            "event_any_05_C": [
+                "yes"
+            ]
+        },
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_B": {
+        "event_text": "打会游戏",
+        "event_image": " 游戏",
+        "event_note": "",
+        "yes": {
+            "Wisdom_Value": 3,
+            "Health_Value": -5,
+            "Network_Value": 2
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": 5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_D": {
+        "event_text": "听会音乐",
+        "event_image": "音乐",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "special_event": [
+                "pass"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_E": {
+        "event_text": "和群友们聊天",
+        "event_image": " 聊天",
+        "event_note": "",
+        "yes": {
+            "Network_Value": 6
+        },
+        "yes_text": "",
+        "no": {
+            "special_event": [
+                "pass"
+            ],
+            "Network_Value": -3
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_F": {
+        "event_text": "在游戏平台上买新游戏",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Money_Value": -8,
+            "Health_Value": 5,
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "yes_text": "",
+        "no": {
+            "special_event": [
+                "loop_ignore"
+            ]
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_G": {
+        "event_text": "吃点零食",
+        "event_image": " 零食",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -2
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 5,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_09_H": {
+        "event_text": "写会代码",
+        "event_image": " 电脑",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -5,
+            "Wisdom_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": 5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": {
+            "min": 14,
+            "max": 21
+        },
+        "loop": [],
+        "probability": 15,
+        "condition": {},
+        "condition_loop": {
+            "event_any_09_A#1": [
+                "yes"
+            ],
+            "event_any_09_A#2": [
+                "yes"
+            ]
+        },
+        "condition_value": {}
+    },
+    "event_any_10_A": {
+        "event_text": "今天的晚饭是……肯德基？",
+        "event_image": " 米饭",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 15,
+            "Money_Value": -10
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            21
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_10_B#1": {
+        "event_text": "今天的晚饭是……拼好饭？",
+        "event_image": " 米饭",
+        "event_note": "增加5健康",
+        "yes": {
+            "Health_Value": 5,
+            "Money_Value": -5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            21
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_10_B#2": {
+        "event_text": "今天的晚饭是……拼好饭？",
+        "event_image": " 米饭",
+        "event_note": "减少10健康",
+        "yes": {
+            "Health_Value": -10,
+            "Money_Value": -5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            21
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_10_C": {
+        "event_text": "今天的晚饭是……阳光青提？",
+        "event_image": " 米饭",
+        "event_note": "",
+        "yes": {
+            "Health_Value": -2
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "loop_ignore",
+                "restart_round"
+            ]
+        },
+        "other_text": "还是吃点别的吧……",
+        "round": [
+            21
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_11_A": {
+        "event_text": "洗漱一下",
+        "event_image": " 洗澡",
+        "event_note": "",
+        "yes": {
+            "Health_Value": 5
+        },
+        "yes_text": "",
+        "no": {
+            "Health_Value": -5
+        },
+        "no_text": "",
+        "other": {},
+        "other_text": "",
+        "round": [
+            22
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    },
+    "event_any_12_A": {
+        "event_text": "上床睡觉……等待明天的到来……",
+        "event_image": " 床",
+        "event_note": "",
+        "yes": {},
+        "yes_text": "",
+        "no": {},
+        "no_text": "",
+        "other": {
+            "special_event": [
+                "pass"
+            ]
+        },
+        "other_text": "",
+        "round": [
+            23
+        ],
+        "loop": [],
+        "probability": 1,
+        "condition": {},
+        "condition_loop": {},
+        "condition_value": {}
+    }
+}
